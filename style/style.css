@@ -1,0 +1,131 @@
+/* página inteira */
+body{
+	background-color: rgb(153, 152, 152);
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+/* Barra de navegação */
+.menu{
+	position: fixed;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	overflow: hidden;
+	background-color: #333;
+	box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2), 0px 6px 15px 0px rgba(0,0,0,0.19);
+}
+  
+.menu li {
+	float: left;
+}
+  
+.menu li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 28px;
+	text-decoration: none;
+}
+  
+.menu li a:hover:not(.active) {
+	background-color: #111;
+}
+  
+.active {
+	background-color: #16a81e;
+}
+/* fim da barra de navegação */
+
+/* div do background */
+#bg {
+	background-color: #fff;
+	padding: 20px;
+	margin-top: 70px;
+	height: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+
+/* div dos botões do rodape */
+#rodape-buttons{
+	font-size: larger;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	padding-bottom: 5px;
+	width: 100%;
+}
+
+/* Botões gerais */
+.news-button{
+	background-color: #16a81e;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 30px;
+}
+
+
+/* Botão "topo" */
+.button-top{
+	background-color: #16a81e;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 30px;
+}
+
+/* div dos videos */
+#videos{
+	text-align: center;
+}
+
+/* titulo principal do site */
+h1{
+	padding-top: 20px;
+	font-size: 1cm;
+	color: #16a81e;
+}
+
+/* titulo da noticia */
+h2{
+	padding-bottom: 8px;
+}
+
+/* descrição da notícia */
+h4{
+	margin-left:200px;
+}
+
+/* Imagens */
+#imagem{
+	text-align: center;
+	padding-top: 10px;
+}
+
+/* div das notícias */
+#not{
+	padding-inline: 5%;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 0.5cm;
+}
