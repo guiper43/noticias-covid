@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,17 +12,30 @@
     <body>
         <nav>
             <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="saiba.html">Saiba mais</a></li>
-            <li><a class="active" href="contato.html">Contato</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="saiba.html">Saiba mais</a></li>
+                <li><a class="active" href="contato.html">Contato</a></li>
             </ul>
-        </nav>
+        </nav>  
 
         <div id="bg">
-          
-            CONTATO
 
-        </div>
+            <h3> entre em contato conosco </h3>
+            <form id="contato">
+                <label for="nome"> nome: </label><br>
+                <input id="nome" type="text" placeholder="digite o seu nome" required> <br>
+                <label for="email"> e-mail : </label> <br>
+                <input id="email" type="email" placeholder="digite o seu e-mail" required <br> <br>
+                <label for="msg"> Mensagem: </label> <br>
+                <input id="msg" type="text" placeholder=" digite a mensagem a ser enviada" required> <br> <br>
+
+                <input id="enviar" type="submit" value=" enviar" onclick="enviada()"> <br>
+                <input id="limpar" type="reset" value=" limpar formulário">
+            </form>
+
+        </div>  
     </body>
+    <script src="js/script.js"> </script>
+
 </html>
