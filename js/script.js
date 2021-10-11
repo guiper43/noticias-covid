@@ -8,6 +8,6 @@ function enviada() {
         return false;
     } else {
         //campos preenchhidos mensagem acionada.
-        alert("mensagem enviada.");
+        alert("sua mensagem foi enviada com sucesso.");
     }
 }
