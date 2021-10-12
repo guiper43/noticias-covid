@@ -63,7 +63,7 @@ body{
 }
 
 /* Botões gerais */
-.news-button{
+.news{
         background-color: #16a81e;
         border: none;
         color: white;
@@ -96,10 +96,12 @@ body{
 /* div dos videos */
 #videos{
         text-align: center;
+        
 }
 
 /* titulo principal do site */
 h1{
+        text-align: center;
         padding-top: 20px;
         font-size: 1cm;
         color: #16a81e;
@@ -110,10 +112,11 @@ h2{
         padding-bottom: 8px;
 }
 
-/* descrição da notícia */
-h4{
-        margin-left:200px;
+h3{
+        text-align: center;
+        color: #16a81e;
 }
+
 
 /* Imagens */
 #imagem{
@@ -128,4 +131,32 @@ section{
         padding-bottom: 20px;
         text-align: center;
         font-size: 0.5cm;
+}
+
+form {
+        text-align: center;
+}
+
+input[type=text], [type=email] {
+        width: 40%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+}
+
+input[type=submit], [type=reset]{
+        background-color: #16a81e;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 30px;
 }
